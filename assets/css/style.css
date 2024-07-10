@@ -1,0 +1,43 @@
+body {
+    position: relative;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.navbar-brand img {
+    height: 100px; /* Adjust the height as needed */
+    /* width: 40px; Ensure the width matches the height for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.d-flex {
+    position: relative;
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 2rem 0;
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
